@@ -1,0 +1,156 @@
+.advateges-block {
+    width: 1920px;
+    height: 800px;
+    background-image: url(/study_ann/img/Rectangle\ 29.png);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 33.33%;
+}
+
+.first-line-title {
+    color: #E4C280;
+    width: 314px;
+    font-size: 18px;
+    line-height: 16px;
+    margin-top: 69px;
+    text-transform: uppercase;
+
+}
+
+.second-line-title {
+    width: 357px;
+    font-size: 48px;
+    color: white;
+    margin-top: 3%;
+}
+
+.description-box {
+    width: 100%;
+    height: 66.6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-img {
+    width: 50px;
+    height: 50px;
+}
+
+.text {
+    width: 77%;
+    color: white;
+}
+
+.nomination {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.exposition {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 3%;
+    color: #878787;
+}
+
+.first-line-description {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.card-block,
+.calendar-block,
+.clock-block {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-line-description {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.wi-fi-block,
+.events-block,
+.phone-block {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rooms-block {
+    height: 1080px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+}
+
+.room-title-text {
+    height: 20%;
+    background-color: #878787;
+}
+
+.presentation-photo-box  {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.presentation-photo {
+ width: 80%;
+ height: 80%;
+}
+
+.room-photo {
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.room-presentation {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.room-presentation-text {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.presetation-title {
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 12%;
+    margin-left: 16%;
+}
+
+.presentation-text {
+    font-size: 14px;
+    line-height: 20px;
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 16%;
+}
+

@@ -1,0 +1,93 @@
+
+.welcome-page-block {
+    width: 100%;
+    height: 890px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+ }
+
+.welcome-text-box { 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.greetings-text {
+    width: 406px;
+    height: 52px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 16px;
+    color: #E4C280;
+    margin-top: 186px;
+    margin-left: 151px;
+ }
+ 
+ h1 {
+     width: 640px;
+     height: 60px;
+     font-size: 48px;
+     line-height: 20px;
+     margin-left: 151px;
+
+ }
+
+.first-paragraph { 
+    margin-top: 60px;
+    margin-left: 151px;
+    width: 480px;
+    height: 46px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+.second-paragraph {
+    color: #878787;
+    margin-top: 6px;
+    margin-left: 149px;
+    width: 490px;
+    height: 140px;
+    font-size: 18px;
+    line-height: 20px;
+ }
+
+.signature-img {
+    width: 182px;
+    height: 88.17px;
+    margin-top: 50px;
+    margin-left: 153px;
+ }
+
+.signature {
+    color: #878787;
+    margin-left: 192px;
+    width: 119px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+ }
+
+.welcom-img-box { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon {
+    width: 727px;
+    height: 540px;
+    border: #878787 solid 0.5px;
+    position: relative;
+    right: 7%;
+    top: 5%;
+}
+
+.icon-img {
+    width: 727px;
+    height: 540px;
+    position: absolute;}
