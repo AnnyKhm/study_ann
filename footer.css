@@ -13,7 +13,10 @@
 
 }
 
-.arrival-name, .departure-name, .month-name, .children-name {
+.arrival-name,
+.departure-name,
+.month-name,
+.children-name {
     height: 30%;
     font-size: 18px;
     line-height: 16px;
@@ -22,19 +25,19 @@
 }
 
 .stay-information {
-    margin-left: 94px;
+    margin-left: 22%;
     display: flex;
     height: 60px;
 }
 
 .arrival-name {
-    margin-left: 88px;
-    margin-top: 41px;
-    width: 145px;
+    margin-left: 22%;
+    margin-top: 10%;
     text-transform: uppercase;
 }
 
-.month-year, .day {
+.month-year,
+.day {
     margin-left: 20px;
 }
 
@@ -59,7 +62,6 @@
 }
 
 .calendar-button {
-    width: 20px;
     height: 12.35px;
     border: none;
     background: transparent;
@@ -67,9 +69,8 @@
 }
 
 .departure-name {
-    margin-top: 41px;
-    margin-left: 96px;
-    width: 175px;
+    margin-left: 22%;
+    margin-top: 10%;
     text-transform: uppercase;
 }
 
@@ -78,34 +79,35 @@
     line-height: 16px;
 }
 
-.arrival-data { 
-    width: 450px;
+.arrival-data {
+    width: 23%;
     height: 100%;
 }
 
-.departure-data { 
-    width: 450px;
+.departure-data {
+    width: 23%;
     height: 100%;
 
 }
 
-.month { 
-    width: 224px;
+.month {
+    width: 11%;
     height: 100%;
 }
 
-.children { 
-    width: 225px;
+.children {
     height: 100%;
 }
 
 .children-name {
-    margin-left: 41px;
-    margin-top: 40px;
+    margin-top: 19%;
+    margin-left: 20%;
     text-transform: uppercase;
+    font-size: 18px;
+    line-height: 16px;
 }
 
-.check-button { 
+.check-button {
     width: 450px;
     height: 100%;
     display: flex;
@@ -114,67 +116,67 @@
 }
 
 .footer-button {
-    width: 242px;
-    height: 45px;
+    width: 55%;
+    height: 25%;
     background-color: #e4c280;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
- .footer-button-name {
-     text-transform: uppercase;
-     width: 202px;
-     color: white;
-     font-size: 18px;
- }
+.footer-button-name {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+}
 
- .month-name {
-     margin-top: 41px;
-     margin-left: 40px;
-     text-transform: uppercase;
-     font-size: 18px;
-     line-height: 16px;
- }
+.month-name {
+    margin-top: 19%;
+    margin-left: 20%;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 16px;
+}
 
- .adults {
-     margin-left: 65px;
- }
+.adults {
+    margin-left: 65px;
+}
 
- .children-amount {
-     margin-left: 66px;
-     display: flex;
- }
+.children-amount {
+    margin-left: 66px;
+    display: flex;
+}
 
- .child {
-     margin-bottom: 40px;
-     width: 38px;
-     font-size: 64px;
- }
+.child {
+    margin-bottom: 40px;
+    width: 38px;
+    font-size: 64px;
+}
 
- .adults-information{
-     display: flex;
-     height: 60px;
-     align-items: center;
- }
+.adults-information {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
 
- .footer-button-choice {
-     height: 40px;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     border: none;
-     background-color: transparent;
-     margin-left: 10%;
- }
+.footer-button-choice {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+    margin-left: 10%;
+}
 
- .footer-button-choice-img, .footer-button-choice-img2 {
-     width: 20px;
-     height: 12.35px;
- }
+.footer-button-choice-img,
+.footer-button-choice-img2 {
+    width: 20px;
+    height: 12.35px;
+}
 
- .footer-button-choice-img {
-     transform: rotate(180deg);
-     margin-top: 5%;
- }
+.footer-button-choice-img {
+    transform: rotate(180deg);
+    margin-top: 5%;
+}

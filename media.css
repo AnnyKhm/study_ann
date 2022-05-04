@@ -1,5 +1,89 @@
-@media (max-width: 1680px) {
+@media (max-width: 768px) {
 
+    .burger-menu-box {
+        justify-content: space-evenly;
+    }
 
-    
+    .stay-information {
+        margin-left: 2%;
+    }
+
+    .month-year {
+        font-size: 14px;
+    }
+
+    .calendar-button {
+        display: none;
+    }
+
+    .adults {
+        margin-left: 2%;
+    }
+
+    .welcome-page-block {
+        flex-direction: column-reverse;
+        height: 1024px;
+        margin-top: 4%;
+        justify-content: end;
+    }
+
+    .welcome-text-box {
+        height: 50%;
+        width: auto;
+    }
+
+    .greetings-text {
+        margin-top: 5%;
+    }
+
+    .welcom-img-box {
+        height: 50%;
+        width: auto;
+    }
+
+    .icon-img {
+        width: 70%;
+        height: 75%;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .special-offers-icon,
+    .bar-icon,
+    .spa-icon {
+        display: none;
+    }
+
+    .spa,
+    .bar,
+    .offers {
+        font-size: 18px;
+    }
+
+    .spa-text,
+    .bar-text,
+    .offers-text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .end-discription {
+        font-size: 12px;
+    }
+
+    .description-box {
+        height: 65%;
+    }
+
+    .card-block,
+    .calendar-block,
+    .clock-block,
+    .wi-fi-block,
+    .events-block,
+    .phone-block {
+        width: 50%;
+    }
+
 }
