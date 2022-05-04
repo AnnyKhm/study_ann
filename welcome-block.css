@@ -78,8 +78,8 @@ h1 {
 }
 
 .icon {
-    width: 38%;
-    height: 89%;
+    width: 727px;
+    height: 540px;
     border: #878787 solid 0.5px;
     position: relative;
     right: 7%;
@@ -87,7 +87,7 @@ h1 {
 }
 
 .icon-img {
-    width: 30%;
-    height: 100%;
+    /* width: 30%;
+    height: 100%; */
     position: absolute;
 }
