@@ -190,3 +190,105 @@ span {
     margin-top: 22%;
     cursor: pointer;
 }
+
+@media (max-width: 1280px) {
+    header {
+        height: 720px;
+    }
+
+    .first-line-text { 
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .second-line-text {
+        font-size: 36px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .front-page-button {
+        width: 184px;
+        height: 42px;
+    }
+
+    .front-page-button {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .menu-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .search-img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .language {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .heder-button {
+        width: 140px;
+        height: 54px;
+    }
+
+    .name-heder-button {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .name-front-page-button {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 325px) {
+
+    .burger-menu-box {
+        margin: 0%;
+    }
+
+    .title-img-box {
+        width: auto;
+    }
+    
+    .menu-text-box {
+        display: none;
+    }
+
+    .title {
+        width: 182px;
+        height: 83px;
+    }
+
+    .senttings-block {
+        display: none;
+    }
+
+    .first-line-text {
+        font-size: 10px;
+        line-height: 12px;
+        width: 100%;
+    }
+
+    .second-line-text {
+        font-size: 18px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .text-box {
+        width: 100%;
+    }
+}
+

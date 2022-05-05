@@ -1,0 +1,185 @@
+.welcome-page-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.welcome-text-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.greetings-text {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    color: #E4C280;
+    margin-top: 20%;
+    margin-left: 151px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 20px;
+    margin-left: 16%;
+    margin-top: 5%;
+
+}
+
+.first-paragraph {
+    margin-top: 7%;
+    margin-left: 16%;
+    height: 46px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.second-paragraph {
+    color: #878787;
+    margin-top: 6px;
+    margin-left: 16%;
+    width: 490px;
+    height: 140px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.signature-img {
+    width: 19%;
+    height: 13%;
+    margin-top: 50px;
+    margin-left: 153px;
+}
+
+.signature {
+    color: #878787;
+    margin-left: 192px;
+    width: 119px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.welcom-img-box {
+    position: relative;
+}
+
+.icon {
+    width: 38%;
+    height: 89%;
+    border: #878787 solid 0.5px;
+    position: relative;
+    right: 7%;
+    top: 5%;
+}
+
+.icon-img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1280px) {
+
+    .welcome-page-block {
+        width: 100%;
+    }
+
+    .greetings-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .first-paragraph {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .second-paragraph {
+        width: 75%;
+        height: auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .signature-img {
+        width: 26%;
+        margin-left: 15%;
+    }
+
+    .signature {
+        margin-left: 18%;
+        width: 30%;
+    }
+
+    .welcom-img-box {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .welcom-img-box {
+        width: 70%;
+    }
+
+    .welcome-page-block {
+        flex-direction: column-reverse;
+        margin-top: 5%;
+    }
+
+    .welcome-text-box{
+        width: 100%;
+    }
+
+ 
+}
+
+@media (max-width: 325px) {
+    .greetings-text {
+        font-size: 10px;
+        line-height: 16px;
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-paragraph {
+        font-size: 10px;
+        line-height: 13px;
+
+    }
+
+    .second-paragraph {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .signature-img {
+        margin-top: 5%;
+    }
+    .signature {
+        font-size: 9px;
+        line-height: 20px;
+    }
+}
