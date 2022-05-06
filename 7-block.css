@@ -57,6 +57,7 @@
 
 .event-date-details {
     color: #E4C280;
+    text-transform: uppercase;
 }
 
 .title-text {
@@ -92,4 +93,86 @@
     color: white;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+@media (max-width: 1280px) {
+
+    .blog-box {
+        height: 850px;
+    }
+
+    .blog-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .blog-name {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .event-date {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .title-text {
+        font-size: 24px;
+        line-height: 64px;
+    }
+
+    .blog-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .blog-button {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .blog-box {
+        height: 1024px;
+    }
+
+    .blog-img {
+        width: 30.3%;
+    }
+    .text-description {
+        width: 30.5%;
+    }
+
+    .event-date {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: end;
+        margin-right: 6%;
+    }
+
+    .event-date-details {
+        text-align: end;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .title-text {
+        font-size: 18px;
+        line-height: 64px;
+    }
+
+    .blog-text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .blog-button {
+        margin-top: 10%;
+    }
+
+
 }
