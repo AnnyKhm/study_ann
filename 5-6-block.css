@@ -124,7 +124,7 @@ ul {
     flex-direction: row;
     align-items: center;
     width: 50%;
-justify-content: center;
+    justify-content: center;
 }
 
 li {
@@ -138,13 +138,14 @@ li {
 
 
 
-.room-photo-and-text-box{
+.room-photo-and-text-box {
     margin-top: 3%;
     width: 100%;
     height: 55%;
     display: flex;
     justify-content: center;
 }
+
 .room-photo-and-text {
     width: 90%;
     display: flex;
@@ -158,8 +159,8 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: start;
-   justify-content: center;
-   background-color: white;
+    justify-content: center;
+    background-color: white;
 }
 
 .room-photo {
@@ -202,6 +203,7 @@ li {
     display: flex;
     align-items: center;
 }
+
 .choice {
     display: flex;
     flex-direction: row;
@@ -210,12 +212,13 @@ li {
     width: 100%;
 }
 
-.first-choice-button, .second-choice-button {
-width: 22%;
-font-size: 18px;
-line-height: 20px;
-color: white;
-border: none;
+.first-choice-button,
+.second-choice-button {
+    width: 22%;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    border: none;
 }
 
 .first-choice-button {
@@ -269,7 +272,8 @@ border: none;
         line-height: 16px;
     }
 
-    .detalis-button, .book-now-button {
+    .detalis-button,
+    .book-now-button {
         margin-right: 3%;
         font-size: 18px;
     }
@@ -409,12 +413,14 @@ border: none;
     }
 
 
-    .first-choice-button, .second-choice-button{
+    .first-choice-button,
+    .second-choice-button {
         width: 42%;
         height: 87%;
     }
 
-    .room-gallery-photo, .room-gallery-photo2 {
+    .room-gallery-photo,
+    .room-gallery-photo2 {
         width: 52px;
         height: 113px;
     }
@@ -496,7 +502,7 @@ border: none;
         height: 715px;
     }
 
-    
+
     .first-room-text {
         margin-top: 3%;
         font-size: 12px;
@@ -526,7 +532,7 @@ border: none;
         align-items: center;
     }
 
-    .room-photo-and-text{
+    .room-photo-and-text {
         height: 100%;
         width: 90%;
         display: flex;
@@ -534,7 +540,8 @@ border: none;
         justify-content: center;
     }
 
-    .room-photo, .room-title-text2 {
+    .room-photo,
+    .room-title-text2 {
         width: 100%;
     }
 

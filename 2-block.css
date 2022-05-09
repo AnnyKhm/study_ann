@@ -1,188 +1,224 @@
-.footer-block {
-    width: 100%;
+.calendar-sectione {
     height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.calendar-box {
+    width: 90%;
     display: flex;
     flex-direction: row;
+
+}
+
+.calendar-data-box {
+    width: 23.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
-.information {
-    border: solid 1px #E5E5E5;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.arrival-name,
-.departure-name,
-.month-name,
-.children-name {
-    height: 30%;
-    font-size: 18px;
-    line-height: 16px;
-    color: #878787;
-    display: flex;
-}
-
-.stay-information {
-    margin-left: 22%;
-    display: flex;
-    height: 60px;
-}
-
-.arrival-name {
-    margin-left: 22%;
-    margin-top: 10%;
-    text-transform: uppercase;
-}
-
-.month-year,
-.day {
-    margin-left: 20px;
-}
-
-.month-year {
-    height: 29px;
+.name-calendar-box {
     font-size: 18px;
     line-height: 20px;
-    width: 89px;
-}
-
-.footer-img-button {
-    width: 20px;
-    height: 12.35px;
-}
-
-.day {
+    color: #878787;
     text-transform: uppercase;
-    font-size: 14px;
-    line-height: 16px;
-    width: 70px;
-    height: 24px;
+    width: 52%;
 }
 
-.calendar-button {
-    height: 12.35px;
-    border: none;
-    background: transparent;
-    margin-left: 37px;
-}
-
-.departure-name {
-    margin-left: 22%;
-    margin-top: 10%;
-    text-transform: uppercase;
-}
-
-.dates {
-    font-size: 64px;
-    line-height: 16px;
-}
-
-.arrival-data {
-    width: 23%;
-    height: 100%;
-}
-
-.departure-data {
-    width: 23%;
-    height: 100%;
-
-}
-
-.month {
-    width: 11%;
-    height: 100%;
-}
-
-.children {
-    height: 100%;
-}
-
-.children-name {
-    margin-top: 19%;
-    margin-left: 20%;
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 16px;
-}
-
-.check-button {
-    width: 450px;
-    height: 100%;
+.calendar-details {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-}
-
-.footer-button {
-    width: 55%;
-    height: 25%;
-    background-color: #e4c280;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-button-name {
-    text-transform: uppercase;
-    color: white;
-    font-size: 18px;
-}
-
-.month-name {
-    margin-top: 19%;
-    margin-left: 20%;
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 16px;
-}
-
-.adults {
-    margin-left: 65px;
-}
-
-.children-amount {
-    margin-left: 66px;
-    display: flex;
-}
-
-.child {
-    margin-bottom: 40px;
-    width: 38px;
-    font-size: 64px;
-}
-
-.adults-information {
-    display: flex;
-    height: 60px;
-    align-items: center;
-}
-
-.footer-button-choice {
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: none;
-    background-color: transparent;
-    margin-left: 10%;
-}
-
-.footer-button-choice-img,
-.footer-button-choice-img2 {
-    width: 20px;
-    height: 12.35px;
-}
-
-.footer-button-choice-img {
-    transform: rotate(180deg);
+    justify-content: space-evenly;
+    width: 65%;
     margin-top: 5%;
 }
 
-@media (max-width: 1280px) {
- 
-    
+.calendar-number {
+    font-size: 64px;
+    line-height: 66px;
+}
 
+.month-year {}
+
+.month {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.day {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 5%;
+}
+
+.Vector,
+.Vector2 {
+    width: 20px;
+    height: 12.25px;
+}
+
+.Vector2 {
+    transform: rotate(180deg);
+}
+
+.adults-box,
+.children-box {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-calendar-box {
+    font-size: 18px;
+    line-height: 20px;
+    color: #878787;
+    text-transform: uppercase;
+    width: 52%;
+}
+
+
+.amount {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+
+.selection-buttons,
+.selection-buttons2 {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    justify-content: space-between;
+}
+
+.selection-buttons2 {
+    margin-left: 20%;
+}
+
+
+.calendar-button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23.5%;
+}
+
+.calendar-button {
+    background-color: #E4C280;
+    color: white;
+    border: none;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 60%;
+    height: 30%;
+}
+
+@media (max-width: 1280px) {
+
+    .name-calendar-box {
+        width: 61%;
+    }
+
+
+    .calendar-details {
+        width: 85%;
+    }
+
+    .calendar-button {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .calendar-button {
+        width: 75%;
+        height: 22%;
+    }
+}
+
+@media (max-width: 768px) {
+    .name-calendar-box {
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .amount {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .month {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .calendar-box {
+        width: 95%;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 325px) {
+
+    .calendar-box {
+        flex-wrap: wrap;
+    }
+
+    .calendar-data-box {
+        width: 48%;
+    }
+
+    .adults-box,
+    .children-box {
+        width: 24%;
+    }
+
+    .name-calendar-box {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .calendar-number {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .month {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .day {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .none {
+        display: flex;
+    }
+
+    .calendar-button-box {
+        width: 48%;
+    }
+
+    .calendar-button {
+        font-size: 12px;
+        line-height: 18px;
+        width: 82%;
+        height: 38%;
+    }
 }

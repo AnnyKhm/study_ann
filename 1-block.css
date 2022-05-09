@@ -196,7 +196,7 @@ span {
         height: 720px;
     }
 
-    .first-line-text { 
+    .first-line-text {
         font-size: 14px;
         line-height: 16px;
     }
@@ -261,7 +261,7 @@ span {
     .title-img-box {
         width: auto;
     }
-    
+
     .menu-text-box {
         display: none;
     }
@@ -291,4 +291,3 @@ span {
         width: 100%;
     }
 }
-
