@@ -137,6 +137,21 @@ hr {
     }
 }
 
+@media (max-width: 475px) {
+
+    footer {
+        height: auto;
+    }
+    
+    .box {
+        width: 40%;
+    }
+
+    .none {
+        display: none;
+    }
+}
+
 @media (max-width: 325px) {
 
     .things-to-do-box,

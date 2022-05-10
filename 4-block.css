@@ -75,6 +75,13 @@
     margin-bottom: 5%;
 }
 
+@media (max-width: 1680px) {
+
+    .second-line-hotel {
+        margin-top: 3%;
+    }
+}
+
 @media (max-width: 1280px) {
 
     .first-line-hotel {
@@ -109,6 +116,12 @@
 
 }
 
+@media (max-width: 1024px) {
+    .third-line-hotel {
+        width: 50%;
+    }
+}
+
 @media (max-width: 768px) {
 
     .second-line-hotel {
@@ -140,6 +153,21 @@
     .footer-line-text {
         font-size: 12px;
         line-height: 16px;
+    }
+}
+
+@media (max-width:475px) {
+    .third-line-hotel {
+        font-size: 13px;
+    }
+
+    .line-title {
+        font-size: 13px;
+    }
+
+    .line-text {
+        font-size: 9px;
+        line-height: 14px;
     }
 }
 

@@ -201,6 +201,10 @@ span {
         line-height: 16px;
     }
 
+    .text-box {
+        margin-top: 12%;
+    }
+
     .second-line-text {
         font-size: 36px;
         line-height: 39px;
@@ -218,6 +222,15 @@ span {
     }
 
 }
+
+@media (max-width: 1024px) {
+    .text-box {
+        margin-top: 15%;
+    }
+
+
+}
+
 
 @media (max-width: 768px) {
 
@@ -250,6 +263,26 @@ span {
         font-size: 14px;
         line-height: 16px;
     }
+}
+
+@media (max-width:475px) {
+
+    .menu-text {
+        display: none;
+    }
+
+    .senttings-block {
+        display: none;
+    }
+
+    .text-box {
+        width: 100%;
+    }
+
+
+.second-line-text {
+    width: auto;
+}
 }
 
 @media (max-width: 325px) {
