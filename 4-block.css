@@ -54,6 +54,7 @@
     width: 25%;
     height: 100%;
     bottom: 5%;
+    border-image: linear-gradient(to left, #F6F6F6, #878787) 1;
 }
 
 

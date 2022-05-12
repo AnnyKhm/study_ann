@@ -10,16 +10,16 @@ header {
 }
 
 .front-page {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%), linear-gradient(180deg, rgba(2, 2, 2, 0.3) 0%, rgba(255, 255, 255, 0) 100%), url(/study_ann/img/64e1a5c3d229cb781846779dabf7a367.jpeg), #FFFFFF;
     height: 100%;
-    background-repeat: no-repeat;
     width: 100%;
-    background-image: url(/study_ann/img/Facade.png);
     background-size: 100%, 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main-menu-block {
@@ -190,6 +190,8 @@ span {
     margin-top: 22%;
     cursor: pointer;
 }
+
+
 
 @media (max-width: 1280px) {
     header {
