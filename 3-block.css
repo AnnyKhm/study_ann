@@ -157,7 +157,7 @@ h1 {
 @media (max-width: 768px) {
 
     .welcom-img-box {
-        width: 70%;
+        width: 80%;
     }
 
     .welcome-page-block {
@@ -172,7 +172,7 @@ h1 {
 
 }
 
-@media (max-width:475px) {
+@media (max-width:425px) {
 
     .greetings-text {
         margin-left: 15%;
@@ -184,7 +184,7 @@ h1 {
     }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
     .greetings-text {
         font-size: 10px;
         line-height: 16px;

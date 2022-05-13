@@ -267,7 +267,19 @@ span {
     }
 }
 
-@media (max-width:475px) {
+@media (max-width:425px) {
+
+    .main-menu-block {
+        justify-content: flex-start;
+    }
+
+    .first-line-text {
+        width: 100%;
+    }
+
+    .burger-menu-box {
+        width: unset;
+    }
 
     .menu-text {
         display: none;
@@ -287,10 +299,10 @@ span {
 }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
 
     .burger-menu-box {
-        margin: 0%;
+        margin-left: 5%;
     }
 
     .title-img-box {

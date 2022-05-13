@@ -503,6 +503,7 @@ li {
 
     .room-img {
         transform: scale(1.6, 1.3);
+        margin-top: 14%;
     }
 
     .room-photo-and-text-border {
@@ -510,7 +511,7 @@ li {
     }
 }
 
-@media (max-width:475px) {
+@media (max-width:425px) {
 
     .card-block, .calendar-block, .clock-block {
         width: 50%;
@@ -550,7 +551,7 @@ li {
     }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
 
     .room-type {
         font-size: 9px;
@@ -664,6 +665,10 @@ li {
     .room-title-text2 {
         width: 100%;
         height: 50%;
+    }
+
+    .room-photo {
+        margin-top: 5%;
     }
 
 

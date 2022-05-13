@@ -137,7 +137,11 @@ hr {
     }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 425px) {
+
+    .things-to-do-box, .rooms-box {
+        display: none;
+    }
 
     footer {
         height: auto;
@@ -150,9 +154,33 @@ hr {
     .none {
         display: none;
     }
+
+    .first {
+        order: 1;
+    }
+
+    .second {
+        order: 5;
+    }
+
+    .third {
+        order: 4;
+    }
+
+    .fourth {
+        order: 3;
+    }
+
+    .fifth {
+        order: 2;
+    }
+
+
+
+
 }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
 
     .things-to-do-box,
     .rooms-box {

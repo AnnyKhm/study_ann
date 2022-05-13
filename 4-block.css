@@ -180,7 +180,7 @@
     }
 }
 
-@media (max-width:475px) {
+@media (max-width:425px) {
     .third-line-hotel {
         font-size: 13px;
     }
@@ -195,7 +195,7 @@
     }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
 
 
     .first-line-hotel {
